@@ -1845,34 +1845,34 @@
                 },
                 {
                     "name": "Sheet Width",
-                    "ioValue": 2438
+                    "ioValue": 2440
                 },
                 {
                     "name": "Sheet Height",
-                    "ioValue": 1219
+                    "ioValue": 800
                 },
                 {
                     "name": "Part Padding",
-                    "ioValue": 6
+                    "ioValue": 8
                 }
             ],
             "description": "Extracts all parts tagged for cutting and lays them out on a sheet to cut.",
             "placements": [
                 {
                     "translate": {
-                        "x": -842.475341796875,
-                        "y": -202.9396209716797
+                        "x": -383.50714111328125,
+                        "y": 218.10000610351562
                     },
                     "id": 3,
                     "rotate": 0
                 },
                 {
                     "translate": {
-                        "x": 418.57992552773436,
-                        "y": -554.702084115625
+                        "x": 1466.3569335710938,
+                        "y": 335.7797393910156
                     },
                     "id": 2,
-                    "rotate": 270
+                    "rotate": 0
                 }
             ]
         }
