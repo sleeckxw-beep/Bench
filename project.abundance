@@ -352,7 +352,7 @@
           "ioValue": "Bench"
         }
       ],
-      "type": null,
+      "type": "SVG",
       "resolution": 96,
       "importIndex": 0,
       "partName": "Bench"
