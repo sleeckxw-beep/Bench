@@ -7,18 +7,15 @@
   "ioValues": [
     {
       "name": "Bench length",
-      "ioValue": 2000,
-      "currentEquation": "2000"
+      "ioValue": 2000
     },
     {
       "name": "Seat width",
-      "ioValue": 500,
-      "currentEquation": "500"
+      "ioValue": 500
     },
     {
       "name": "Seat thickness",
-      "ioValue": 45,
-      "currentEquation": "45"
+      "ioValue": 45
     },
     {
       "name": "Seat height",
@@ -162,11 +159,106 @@
       "ioValues": [
         {
           "name": "Shape 1",
-          "ioValue": null
+          "ioValue": {
+            "geometry": "move-extrude-rectangle-2000-500-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-45-0-0-550",
+            "dimension": "3D",
+            "plane": {
+              "origin": [
+                0,
+                0,
+                0
+              ],
+              "xDir": [
+                1,
+                0,
+                0
+              ],
+              "normal": [
+                0,
+                0,
+                1
+              ]
+            },
+            "color": "#aad7f2",
+            "tags": [],
+            "bom": []
+          }
         },
         {
           "name": "Shape 4",
-          "ioValue": null
+          "ioValue": {
+            "geometry": [
+              {
+                "geometry": "move-rotate-extrude-fuse-fuse-cut-cut-cut-cut-rectangle-580-817.8571428571429-move-rectangle-435-572.5-0--122.67857142857144-0-move-rectangle-500-56.25-0-286.25-0-move-cut-move-rectangle-100-100-50-50-0-circle-100-190-308.92857142857144-0-move-rotate-cut-move-rectangle-100-100-50-50-0-circle-100-0-0-90--190-308.92857142857144-0-move-cut-move-rectangle-100-100-50-50-0-circle-100-117.5-63.571428571428555-0-move-rotate-cut-move-rectangle-100-100-50-50-0-circle-100-0-0-90--117.5-63.571428571428555-0-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-18-60-0--90--1000-0-327.14285714285717",
+                "tags": [],
+                "bom": [],
+                "plane": {
+                  "origin": [
+                    0,
+                    0,
+                    0
+                  ],
+                  "xDir": [
+                    1,
+                    0,
+                    0
+                  ],
+                  "normal": [
+                    0,
+                    0,
+                    1
+                  ]
+                },
+                "color": "#aad7f2",
+                "dimension": "3D"
+              },
+              {
+                "geometry": "move-rotate-extrude-fuse-fuse-cut-cut-cut-cut-rectangle-580-817.8571428571429-move-rectangle-435-572.5-0--122.67857142857144-0-move-rectangle-500-56.25-0-286.25-0-move-cut-move-rectangle-100-100-50-50-0-circle-100-190-308.92857142857144-0-move-rotate-cut-move-rectangle-100-100-50-50-0-circle-100-0-0-90--190-308.92857142857144-0-move-cut-move-rectangle-100-100-50-50-0-circle-100-117.5-63.571428571428555-0-move-rotate-cut-move-rectangle-100-100-50-50-0-circle-100-0-0-90--117.5-63.571428571428555-0-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-18-60-0-90-1000-0-327.14285714285717",
+                "tags": [],
+                "bom": [],
+                "plane": {
+                  "origin": [
+                    0,
+                    0,
+                    0
+                  ],
+                  "xDir": [
+                    1,
+                    0,
+                    0
+                  ],
+                  "normal": [
+                    0,
+                    0,
+                    1
+                  ]
+                },
+                "color": "#aad7f2",
+                "dimension": "3D"
+              }
+            ],
+            "plane": {
+              "origin": [
+                0,
+                0,
+                0
+              ],
+              "xDir": [
+                1,
+                0,
+                0
+              ],
+              "normal": [
+                0,
+                0,
+                1
+              ]
+            },
+            "tags": [],
+            "color": "#aad7f2",
+            "bom": [],
+            "dimension": "3D"
+          }
         }
       ]
     },
@@ -274,11 +366,57 @@
       "ioValues": [
         {
           "name": "Shape 1",
-          "ioValue": null
+          "ioValue": {
+            "geometry": "move-rotate-extrude-fuse-fuse-cut-cut-cut-cut-rectangle-580-817.8571428571429-move-rectangle-435-572.5-0--122.67857142857144-0-move-rectangle-500-56.25-0-286.25-0-move-cut-move-rectangle-100-100-50-50-0-circle-100-190-308.92857142857144-0-move-rotate-cut-move-rectangle-100-100-50-50-0-circle-100-0-0-90--190-308.92857142857144-0-move-cut-move-rectangle-100-100-50-50-0-circle-100-117.5-63.571428571428555-0-move-rotate-cut-move-rectangle-100-100-50-50-0-circle-100-0-0-90--117.5-63.571428571428555-0-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-18-60-0--90--1000-0-327.14285714285717",
+            "tags": [],
+            "bom": [],
+            "plane": {
+              "origin": [
+                0,
+                0,
+                0
+              ],
+              "xDir": [
+                1,
+                0,
+                0
+              ],
+              "normal": [
+                0,
+                0,
+                1
+              ]
+            },
+            "color": "#aad7f2",
+            "dimension": "3D"
+          }
         },
         {
           "name": "Shape 2",
-          "ioValue": null
+          "ioValue": {
+            "geometry": "move-rotate-extrude-fuse-fuse-cut-cut-cut-cut-rectangle-580-817.8571428571429-move-rectangle-435-572.5-0--122.67857142857144-0-move-rectangle-500-56.25-0-286.25-0-move-cut-move-rectangle-100-100-50-50-0-circle-100-190-308.92857142857144-0-move-rotate-cut-move-rectangle-100-100-50-50-0-circle-100-0-0-90--190-308.92857142857144-0-move-cut-move-rectangle-100-100-50-50-0-circle-100-117.5-63.571428571428555-0-move-rotate-cut-move-rectangle-100-100-50-50-0-circle-100-0-0-90--117.5-63.571428571428555-0-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-18-60-0-90-1000-0-327.14285714285717",
+            "tags": [],
+            "bom": [],
+            "plane": {
+              "origin": [
+                0,
+                0,
+                0
+              ],
+              "xDir": [
+                1,
+                0,
+                0
+              ],
+              "normal": [
+                0,
+                0,
+                1
+              ]
+            },
+            "color": "#aad7f2",
+            "dimension": "3D"
+          }
         }
       ]
     },
@@ -322,13 +460,11 @@
         },
         {
           "name": "Sheet Height",
-          "ioValue": 800,
-          "currentEquation": "800"
+          "ioValue": 800
         },
         {
           "name": "Part Padding",
-          "ioValue": 50,
-          "currentEquation": "50"
+          "ioValue": 50
         }
       ],
       "placements": [
@@ -953,15 +1089,84 @@
           "ioValues": [
             {
               "name": "Shape 1",
-              "ioValue": null
+              "ioValue": {
+                "geometry": "cut-cut-cut-cut-rectangle-580-817.8571428571429-move-rectangle-435-572.5-0--122.67857142857144-0-move-rectangle-500-56.25-0-286.25-0-move-cut-move-rectangle-100-100-50-50-0-circle-100-190-308.92857142857144-0-move-rotate-cut-move-rectangle-100-100-50-50-0-circle-100-0-0-90--190-308.92857142857144-0",
+                "dimension": "2D",
+                "plane": {
+                  "origin": [
+                    0,
+                    0,
+                    0
+                  ],
+                  "xDir": [
+                    1,
+                    0,
+                    0
+                  ],
+                  "normal": [
+                    0,
+                    0,
+                    1
+                  ]
+                },
+                "color": "#aad7f2",
+                "tags": [],
+                "bom": []
+              }
             },
             {
               "name": "Shape 2",
-              "ioValue": null
+              "ioValue": {
+                "geometry": "move-cut-move-rectangle-100-100-50-50-0-circle-100-117.5-63.571428571428555-0",
+                "dimension": "2D",
+                "plane": {
+                  "origin": [
+                    0,
+                    0,
+                    0
+                  ],
+                  "xDir": [
+                    1,
+                    0,
+                    0
+                  ],
+                  "normal": [
+                    0,
+                    0,
+                    1
+                  ]
+                },
+                "color": "#aad7f2",
+                "tags": [],
+                "bom": []
+              }
             },
             {
               "name": "Shape 3",
-              "ioValue": null
+              "ioValue": {
+                "geometry": "move-rotate-cut-move-rectangle-100-100-50-50-0-circle-100-0-0-90--117.5-63.571428571428555-0",
+                "dimension": "2D",
+                "plane": {
+                  "origin": [
+                    0,
+                    0,
+                    0
+                  ],
+                  "xDir": [
+                    1,
+                    0,
+                    0
+                  ],
+                  "normal": [
+                    0,
+                    0,
+                    1
+                  ]
+                },
+                "color": "#aad7f2",
+                "tags": [],
+                "bom": []
+              }
             }
           ],
           "unionType": "Fusion"
